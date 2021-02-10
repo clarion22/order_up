@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()  # noqa
 from app import app, db
-from app.models import Employee, Menu, MenuItem, MenuItemType, Table
+from app.models import Employee, Menu, MenuItem, MenuItemType, Table, Order, OrderDetail
 
 # Regardless of the lint error you receive,
 # load_dotenv must run before running this
