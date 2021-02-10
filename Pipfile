@@ -17,6 +17,7 @@ flask-login = "*"
 pylint = "*"
 pycodestyle = "*"
 rope = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
